@@ -1,0 +1,211 @@
+body {
+    background-color: #ffdf84
+    }
+#header {
+    margin-top: 50px;
+    margin-left: 5000px;
+    }
+.text{
+    position: absolute;
+    top: 0px;
+    left: 25px;
+    width: 200px;
+    height: 1500px;
+    }
+.text1{
+    position: absolute;
+    top: 125px;
+    left: 25px;
+    width: 200px;
+    height: 1200px;
+    font-family: 'Comic Sans MS' ;
+    }
+.text2{
+    position: absolute;
+    top: 550px;
+    left: 25px;
+    width: 200px;
+    height: 1200px;
+    font-family: 'Comic Sans MS' ;
+    }
+.text3{
+    position: absolute;
+    top: 535px;
+    left: 1227px;
+    width: 200px;
+    height: 1200px;
+    font-family: 'Comic Sans MS' ;
+    }            
+.container {
+    position:relative;
+    }
+.clogo {
+    position: absolute;
+    top: 60px;
+    left: 470px;
+    width: 350px;
+    height: 55px;
+    }
+.cfon {
+    position: absolute;
+    top: 50px;
+    left: 250px;
+    width: 800px;
+    height: 600px;
+    }
+.ckot {
+    position: absolute;
+    top: 225px;
+    left: 370px;
+    width: 425px;
+    height: 320px;
+    }
+.ca1{
+    position: absolute;
+    top: 135px;
+    left: 475px;
+    width: 260px;
+    height: 200px;
+    display: none;
+    }
+.ca2{
+    position: absolute;
+    top: 400px;
+    left: 550px;
+    width: 100px;
+    height: 75px;
+    display: none;
+    }
+.ca3{
+    position: absolute;
+    top: 322px;
+    left: 600px;
+    width: 120px;
+    height: 75px;
+    display: none;
+    }
+.ca4{
+    position: absolute;
+    top: 212px;
+    left: 475px;
+    width: 265px;
+    height: 115px;
+    display: none;
+    }
+.ca5{
+    position: absolute;
+    top: 350px;
+    left: 480px;
+    width: 260px;
+    height: 160px;
+    display: none;
+    }
+.ca6{
+    position: absolute;
+    top: 270px;
+    left: 365px;
+    width: 110px;
+    height: 200px;
+    display: none;
+    }
+.ca7{
+    position: absolute;
+    top: 179px;
+    left: 463px;
+    width: 180px;
+    height: 200px;
+    display: none;
+    }
+.ca8{
+    position: absolute;
+    top: 350px;
+    left: 530px;
+    width: 75px;
+    height: 50px;
+    display: none;
+    }
+.ca9{
+    position: absolute;
+    top: 480px;
+    left: 470px;
+    width: 265px;
+    height: 85px;
+    display: none;
+    }
+.container2 {
+    position:relative;
+    }
+.cy1{
+    position: absolute;
+    top: 80px;
+    left: 1080px;
+    width: 120px;
+    height: 120px;
+    }
+.cy2{
+    position: absolute;
+    top: 220px;
+    left: 1080px;
+    width: 120px;
+    height: 120px;
+    }
+.cy3{
+    position: absolute;
+    top: 360px;
+    left: 1080px;
+    width: 120px;
+    height: 120px;
+    }
+.cy4{
+    position: absolute;
+    top: 78px;
+    left: 1210px;
+    width: 120px;
+    height: 120px;
+    }
+.cy5{
+    position: absolute;
+    top: 220px;
+    left: 1210px;
+    width: 120px;
+    height: 120px;
+    }
+.cy6{
+    position: absolute;
+    top: 360px;
+    left: 1210px;
+    width: 120px;
+    height: 116px;
+    }
+.cy7{
+    position: absolute;
+    top: 78px;
+    left: 1340px;
+    width: 120px;
+    height: 120px;
+    }
+.cy8{
+    position: absolute;
+    top: 220px;
+    left: 1340px;
+    width: 120px;
+    height: 120px;
+    }
+.cy9{
+    position: absolute;
+    top: 358px;
+    left: 1340px;
+    width: 120px;
+    height: 118px;
+    }
+.cyp{
+    position: absolute;
+    top: 500px;
+    left: 1080px;
+    width: 120px;
+    height: 120px;
+    }
+
+.visible {
+    display: block;
+}

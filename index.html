@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <style>
+        ul {
+            list-style-type: none;
+        }
+    </style>
+    <title>"Котик устал"</title>
+    <link rel='icon' href='C:\Users\kerra.DESKTOP-O33SQ87\OneDrive\Рабочий стол\кот текстурки\кот.png' type='image/png'>
+</head>
+<body>
+    <div ><h1 class="text">Игра "Котик устал"</h1>
+    <h3 class="text1">котик устал, и ему лень что-либо делать. помоги котику собраться на ИКМ по "Введение в операционные системы и инструменты разработки"
+        
+    </h3>
+    <h3 class="text2">выполнила Загвозкина Валерия ИТХ-3</h3>
+    <h2 class="text3">⬅︎ удалить всё</h2>
+    </div>
+    <div class="container"> 
+        <img class="cfon" src="./кот текстурки/фон.jpg" alt="">
+        <img class="clogo" src="./кот текстурки/лого1.png" alt="">
+        <img class="ckot" src="./кот текстурки/кот.png" alt="">
+    </div>
+
+    <div class="container2"> 
+        <ul>
+            <li><img class="cy1" src="./кот текстурки/яч1.png" alt="" onclick="hideHatImages()" ></li>
+            
+            <li><img class="cy2" src="./кот текстурки/яч2.png" alt="" onclick="showImage('ca2')"></li>
+            <li><img class="cy3" src="./кот текстурки/яч3.png" alt="" onclick="showImage('ca3')"></li>
+            <li><img class="cy4" src="./кот текстурки/яч4.png" alt="" onclick="hideHat2Images()"></li>
+            <li><img class="cy5" src="./кот текстурки/яч5.png" alt="" onclick="showImage('ca5')"></li>
+            <li><img class="cy6" src="./кот текстурки/яч6.png" alt="" onclick="showImage('ca6')"></li>
+            <li><img class="cy7" src="./кот текстурки/яч7.png" alt="" onclick="hideHat3Images()"></li>
+            <li><img class="cy8" src="./кот текстурки/яч8.png" alt="" onclick="showImage('ca8')"></li>
+            <li><img class="cy9" src="./кот текстурки/яч9.png" alt="" onclick="showImage('ca9')"></li>
+            <img class="ca1" src="./кот текстурки/а1.png" alt=""> 
+            <img class="ca2" src="./кот текстурки/а2.png" alt="">
+            <img class="ca3" src="./кот текстурки/а3.png" alt="">
+            <img class="ca4" src="./кот текстурки/а4.png" alt="">
+            <img class="ca5" src="./кот текстурки/а5.png" alt="">
+            <img class="ca6" src="./кот текстурки/а6.png" alt="">
+            <img class="ca7" src="./кот текстурки/а7.png" alt="">
+            <img class="ca8" src="./кот текстурки/а8.png" alt="">
+            <img class="ca9" src="./кот текстурки/а9.png" alt="">
+            <li><img class="cyp" src="./кот текстурки/ячкр.png" alt="" onclick="hideAllImages()"></li>
+        </ul>
+    </div>
+
+    <script>
+        let isImageVisible = false;
+        let currentImage = null;
+
+        function showImage(imageClass) {
+        const imageToShow = document.querySelector('.' + imageClass);
+        
+        if (imageToShow) {
+            imageToShow.style.display = 'block';
+            currentImage = imageToShow;
+            isImageVisible = true;
+            }
+        }
+    
+        function hideAllImages() {
+            const images = document.querySelectorAll('.ca1, .ca2, .ca3, .ca4, .ca5, .ca6, .ca7, .ca8, .ca9');
+            images.forEach(image => {
+                image.style.display = 'none';
+            });
+        }
+        
+        function hideHatImages() {
+            const images = document.querySelectorAll('.ca4, .ca7');
+            images.forEach(image => {
+                image.style.display = 'none';
+                document.querySelector('.ca1').style.display = 'block';
+
+            });
+            
+        }
+        function hideHat2Images() {
+            const images = document.querySelectorAll('.ca1, .ca7');
+            images.forEach(image => {
+                image.style.display = 'none';
+                document.querySelector('.ca4').style.display = 'block';
+
+            });
+            
+        }
+        function hideHat3Images() {
+            const images = document.querySelectorAll('.ca4, .ca1');
+            images.forEach(image => {
+                image.style.display = 'none';
+                document.querySelector('.ca7').style.display = 'block';
+
+            });
+            
+        }
+        </script>
+</body>
+</html>
